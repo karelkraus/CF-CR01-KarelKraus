@@ -1,0 +1,149 @@
+body{
+	margin: 0;
+	background-color: #CABBB7;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div {
+	background-color: white;
+}
+
+header {
+	color: black;
+}
+
+header h1 {
+	text-align: center;
+	padding-top: 5%;
+	position: relative;
+	float: left;
+	width: 70%;
+	font-size: 2.5vw;
+	
+}
+
+header img {
+	padding-top: 2em;
+	padding-right: 5%;
+	padding-bottom: 2em;
+	position: relative;
+	float: right;
+	width: 25%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color:#C65252;
+  color: white;
+}
+
+li {
+  float: right;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+div.text {
+	width: 100%;
+	text-align: center;
+	font-size: 5vw;
+	border: 1px solid white;
+}
+
+div.phone {
+	width: 80%;
+	height: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.phone img {
+	width: 100%;
+/* very tricky  clip: rect(200px,1080px,450px,0px); */
+ 
+}
+
+.phone h2 {
+	text-align: center;
+	font-size: 2vw;
+	border: 1px solid white;
+}
+
+div.card {
+	float: left;
+	width: 37%;
+	margin-left: 10%;
+}
+
+.card img {
+	width: 100%;
+}
+
+.card h2 {
+	text-align: center;
+	font-size: 2vw;
+	margin: 0;
+}
+
+div.scooter {
+	float: right;
+	width: 37%;
+	margin-right: 10%;
+}
+
+.scooter img {
+	width: 100%;
+}
+.scooter h2 {
+	text-align: center;
+	font-size: 2vw;
+	margin: 0;
+}
+
+div.footer {
+	position: relative;
+	height: 10em;
+	background-color: #CABBB7;
+	color: black;
+}
+
+#othercontent {
+	height: 21em;
+	border: 1px solid white
+}
+
+#maincontent {
+	border: 1px solid white
+}
+
+footer {
+	width: 100%;
+}
+
+footer img {
+	padding-left: 40%;
+	margin-top: 1em;
+	position: relative;
+	width: 20%;
+}
+
+footer h1 {
+	text-align: center;
+	font-size: 1.5vw;
+}
