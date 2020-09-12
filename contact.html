@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About me</title>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  width: 15%;
+		  background-color: #f1f1f1;
+		  position: fixed;
+		  height: 100%;
+		  overflow: auto;
+		}
+
+		li a {
+		  display: block;
+		  color: #000;
+		  padding: 8px 16px;
+		  text-decoration: none;
+		}
+
+		li a.active {
+		  background-color: #8C1215;
+		  color: white;
+		}
+
+		li a:hover:not(.active) {
+		  background-color: #5F5F60;
+		  color: white;
+		}
+		#cnt {
+			margin-left: 15%; 
+			float: left;
+			padding: 1%;
+			background-color: #CABBB7;
+			border-radius: 5px
+		}
+		.lg {
+			width: 80%;
+			padding: 5%;
+		}
+		input[type=text], select, textarea {
+		  width: 100%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		  margin-top: 6px;
+		  margin-bottom: 16px;
+		  resize: vertical;
+		}
+
+		input[type=submit] {
+		  background-color: #A84D4F;
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+		  background-color: #5F5F60;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="cnt">
+	  <form action="/action_page.php">
+	    <label for="fname">First Name</label>
+	    <input type="text" id="fname" name="firstname" placeholder="Your first name">
+
+	    <label for="lname">Last Name</label>
+	    <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+	    <label for="country">Country</label>
+	    <select id="country" name="country">
+	      <option value="austria">Austria</option>
+	      <option value="germany">Germany</option>
+	      <option value="other">Other country</option>
+	    </select>
+
+	    <label for="subject">Subject</label>
+	    <textarea id="subject" name="subject" placeholder="Here you can write your message" style="height:200px"></textarea>
+
+	    <input type="submit" value="Submit">
+	  </form>
+	</div>
+	
+	<nav>
+		<ul>
+			<img class="lg" src="img/logo.png" alt="logo" >
+			<li><a href="homepage.html">Home</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="about.html">About me</a></li>
+			<li><a class="active" href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+</body>
+</html>
