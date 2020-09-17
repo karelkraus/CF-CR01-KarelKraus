@@ -63,12 +63,15 @@ div.text {
 	width: 100%;
 	text-align: center;
 	font-size: 5vw;
-	border: 1px solid white;
+}
+
+.text h2 {
+	margin-top: 0;
+	padding-top: 8vw;
 }
 
 div.phone {
 	width: 80%;
-	height: 20%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
@@ -82,7 +85,7 @@ div.phone {
 .phone h2 {
 	text-align: center;
 	font-size: 2vw;
-	border: 1px solid white;
+	
 }
 
 div.card {
@@ -124,12 +127,7 @@ div.footer {
 }
 
 #othercontent {
-	height: 21em;
-	border: 1px solid white
-}
-
-#maincontent {
-	border: 1px solid white
+	height: 30vw;
 }
 
 footer {
