@@ -62,12 +62,13 @@ li a:hover {
 div.text {
 	width: 100%;
 	text-align: center;
-	font-size: 5vw;
+	
 }
 
 .text h2 {
 	margin-top: 0;
 	padding-top: 8vw;
+	font-size: 8vw;
 }
 
 div.phone {
